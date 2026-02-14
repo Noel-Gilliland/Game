@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags:
   - Ground
   layers:
@@ -16,8 +16,8 @@ TagManager:
   - Wall
   - 
   - 
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -42,3 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2546232383
+    locked: 0
+  - name: Foreground
+    uniqueID: 2009711161
+    locked: 0
+  - name: Player
+    uniqueID: 3067765595
+    locked: 0
+  - name: Ground
+    uniqueID: 3188499405
+    locked: 0
+  m_RenderingLayers:
+  - Default
