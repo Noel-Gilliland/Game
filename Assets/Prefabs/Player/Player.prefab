@@ -116,7 +116,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1227201701
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 20daa800a641d9e4cae18a06630db1ef, type: 3}
@@ -247,6 +247,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  fireballSound: {fileID: 8300000, guid: 47b45de99ff110747b899064006cfe8e, type: 3}
 --- !u!95 &3986902443612071001
 Animator:
   serializedVersion: 7
@@ -287,3 +288,5 @@ MonoBehaviour:
   components:
   - {fileID: 4716651922098092613}
   - {fileID: 2913502092589197397}
+  deathSound: {fileID: 8300000, guid: c3d78c9d9f1f0474a989b4af39662cc3, type: 3}
+  hurtSound: {fileID: 8300000, guid: fa98ccab1d5a0ca4dab4c9fe0973b982, type: 3}

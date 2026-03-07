@@ -23,6 +23,11 @@ public class Health : MonoBehaviour
     [SerializeField] private Behaviour[] components;
     private bool invulnerable;
 
+    [Header("Death Sound")]
+    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private AudioClip hurtSound;
+
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -42,6 +47,7 @@ public class Health : MonoBehaviour
 
             //iframes
             StartCoroutine(Invunerability());
+            SoundManager.instance.PlaySound(hurtSound);
         }
         else
         {
@@ -52,6 +58,7 @@ public class Health : MonoBehaviour
                 foreach (Behaviour comp in components)
                     comp.enabled = false;
                 dead = true;
+                SoundManager.instance.PlaySound(deathSound);
             }
             
         }

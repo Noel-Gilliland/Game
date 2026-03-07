@@ -268,7 +268,9 @@ MonoBehaviour:
   numberOfFlashes: 0
   components:
   - {fileID: 206991917036280512}
-  - {fileID: 0}
+  - {fileID: 877744452604866979}
+  deathSound: {fileID: 8300000, guid: c3d78c9d9f1f0474a989b4af39662cc3, type: 3}
+  hurtSound: {fileID: 8300000, guid: fa98ccab1d5a0ca4dab4c9fe0973b982, type: 3}
 --- !u!114 &206991917036280512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,9 +284,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RangedEnemy
   attackCooldown: 1
-  damage: 1
   range: 13
-  firePoint: {fileID: 4195926678983239048}
+  damage: 1
+  firepoint: {fileID: 0}
   fireballs:
   - {fileID: 255140551687871135}
   - {fileID: 9192932076707675169}
@@ -301,6 +303,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 1024
+  fireballSound: {fileID: 8300000, guid: 47b45de99ff110747b899064006cfe8e, type: 3}
 --- !u!114 &877744452604866979
 MonoBehaviour:
   m_ObjectHideFlags: 0
