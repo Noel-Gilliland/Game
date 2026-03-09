@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 7483807272971394560}
   - component: {fileID: 9017947685467215409}
   - component: {fileID: 3651934517934526099}
+  - component: {fileID: 6028628666634175833}
   - component: {fileID: 2913502092589197397}
   - component: {fileID: 4716651922098092613}
   - component: {fileID: 3986902443612071001}
@@ -202,6 +203,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &6028628666634175833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871828784463146239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd558f4b3958ac841bf5b47720f6452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerRespawn
+  checkpointSound: {fileID: 8300000, guid: 7644d2861f092f04c98b2a6b775dcda8, type: 3}
 --- !u!114 &2913502092589197397
 MonoBehaviour:
   m_ObjectHideFlags: 0
