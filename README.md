@@ -4,10 +4,10 @@ Working on a 2d platformer rpg, with heavy inspiration from games likes Hollow K
 
 
 ## Classes 
-Barbarian
-Mage
-Paladin
-Thief
+Barbarian  
+Mage  
+Paladin  
+Thief  
 
 ### Secret Classes
 Necromancer: My Idea here is that you don't start with this class unlocked. You must first beat some challenge to unlock it. Maybe its beat the game, or beat the game on all 4 classes, or do some convoluted questline and beat the game once. Something to make playing this class special.
