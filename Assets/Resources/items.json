@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gold",
+    "name": "Gold",
+    "description": "Currency that can be spent to buy items",
+    "icon": "yellow_coin",
+    "stackable": true,
+    "maxStack": 1000000
+  },
+  {
+    "id": "skillpoint",
+    "name": "Book of Knowledge",
+    "description": "Tomes that can be used to learn new skills",
+    "icon": "brown_book",
+    "stackable": true,
+    "maxStack": 11
+  }
+]

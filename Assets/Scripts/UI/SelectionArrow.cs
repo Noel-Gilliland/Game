@@ -32,12 +32,12 @@ public class SelectionArrow : MonoBehaviour
     }
     private void ChangePosition(int _change)
     {
-
+        Debug.Log("Changing position by " + _change);
         currentPosition += _change;
 
         if(_change != 0)
         {
-            SoundManager.instance.PlaySound(changeSound);
+            //SoundManager.instance.PlaySound(changeSound);
         }
 
         if (currentPosition < 0)
@@ -53,7 +53,7 @@ public class SelectionArrow : MonoBehaviour
 
     private void Interact()
     {
-        SoundManager.instance.PlaySound(interactSound);
+        //SoundManager.instance.PlaySound(interactSound);
         options[currentPosition].GetComponent<Button>().onClick.Invoke();
 
     }

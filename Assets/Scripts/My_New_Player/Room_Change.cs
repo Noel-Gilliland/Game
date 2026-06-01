@@ -32,6 +32,8 @@ public class Room_Change : MonoBehaviour
             SceneManager.LoadScene(End_Location_Scene);
         }
     }
+
+
     /*
     private void OnDrawGizmos()
     {
